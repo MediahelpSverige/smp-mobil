@@ -1,0 +1,277 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>
+      Besiktningsingenjörer
+    </title>
+    <!-- CSS File -->
+    <link href="/Styles/smp.css" rel="stylesheet" type="text/css" />
+    <!-- Keywords and page description -->
+    <meta name="keywords" content="smp, svensk maskinprovning, maskinprovning, besiktning, certifiering, ce, ce-märkning, testning, besiktningsingenjör, ingenjör, karta" />
+    <meta name="description" content="Klicka på kartan för att markera din position och få en lista över de besiktningsingenjörer som finns närmast dig." />
+  </head>
+  <body onload="loadEng();">
+    <!-- Javascript files -->
+    <script src="/js/def.js" type="text/javascript">
+    </script>
+    <script src="/js/engineers.js" type="text/javascript">
+    </script>
+    <script src="/js/findEngineers.js" type="text/javascript">
+    </script>
+    <script src="/js/replaceHtml.js" type="text/javascript">
+    </script>
+    <script src="/js/loadEng.js" type="text/javascript">
+    </script>
+    <script src="/js/Query.js" type="text/javascript">
+    </script>
+    <script src="/js/employees.js" type="text/javascript">
+    </script>
+    <script src="/js/engineers.js" type="text/javascript">
+    </script>
+    <script src="/js/personal.js" type="text/javascript">
+    </script>
+    <div class="allPage">
+      <!-- Left Side Logo -->
+      <div id="divPageOuterLeftContainer" class="pageOuterLeftContainer">
+        <img src="/Styles/Images/payoff_sv.png" id="ctl00_payoff" height="400" alt="Gå till startsidan för smp.nu" />
+      </div>
+      <!-- Page Content -->
+      <div class="pageInnerContainer">
+        <div class="topCorners">
+          <span class="topCornerL">
+          </span>
+          <span class="topCornerR">
+          </span>
+        </div>
+        <!-- TOP AREA -->
+        <div class="topAreaContainer">
+          <!-- TOP LOGO -->
+          <div id="top_logo_div" class="topLogoContainer">
+            <a href="http://www.smp.nu">
+              <img src="/Styles/Images/logo.png" height="100" alt="Gå till startsidan för smp.nu" />
+            </a>
+          </div>
+          <!-- TOP LINKS -->
+          <div class="topLinksContainer">
+            <div id="top_links_div" class="topLinks">
+              <a href="/sv/Contact/Sidor/default.html">
+                Kontakta oss
+              </a>
+              |
+              <a href="javascript:window.location.href = window.location.href.replace('/sv/', '/en/');">
+                In English
+              </a>
+            </div>
+          </div>
+          <!-- SEARCH -->
+          <div class="topSearchContainer">
+            <div style="float:right;">
+              <div id="search_div_id">
+                <form id="search_form" method="post" action="../../../Search/searchresults.html" onsubmit="sendForm('search_input'); return false;" class="">
+                  <table class="ms-sbtable ms-sbtable-ex">
+                    <tbody>
+                      <tr class="ms-sbrow">
+                        <td class="ms-sbcell">
+                          <input type="text" value="Sök" maxlength="200" id="search_input" accesskey="S" title=" Ange sökord" class="ms-sbplain" onfocus="ClearInputKeywords(this.id)" style="width:132px;color:#b3b3b3;" />
+                        </td>
+                        <td class="ms-sbgo ms-sbcell">
+                          <a type="submit" id="SF1_submit" onclick="sendForm('search_input'); return false;" title="Sök">
+                            <img src="/Styles/Images/searchButton.gif" alt="Sök" style="border-width:0px;" />
+                          </a>
+                        </td>
+                        <td class="ms-sbLastcell">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- TOP NAVIGATION -->
+          <div class="topNavigationContainer">
+            <table width="100%">
+              <tbody>
+                <tr>
+                  <td valign="bottom">
+                    <div class="header">
+                      <ul>
+                        <li class="nav">
+                          <a href="/sv/About/Sidor/default.html"></br>
+                            Om SMP
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="/sv/Work/Sidor/default.html"></br>
+                            Jobba hos oss
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="../../../Documents/Sidor/default.html"></br>
+                            Dokument
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="/sv/Contact/Sidor/default.html"></br>
+                            Kontakta oss
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="/sv/Testing/Sidor/default.html"></br>
+                            Provning
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="/sv/Certification/Sidor/default.html"></br>
+                            Certifiering
+                          </a>
+                        </li>
+                        <li class="nav current">
+                          <a href="../../Sidor/default.html"></br>
+                            Besiktning
+                          </a>
+                        </li>
+                        <li class="nav">
+                          <a href="../../../Sidor/default.html"></br>
+                            Start
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- PART OF SP LOGO -->
+          <div style="float:left;width:180px;height:30px; padding-bottom:10px;" align="left">
+            <img src="/Styles/Images/partOfSP.png" style="float:left; padding-bottom:5px;" height="40" width="170" alt="www.sp.se" />
+          </div>
+        </div>
+        <div class="pageContentContainer">
+          <!-- LEFT MENU CONTENT -->
+          <div id="left_menu_div" class="startLeftNavContainer">
+            <div class="leftNavigationContainer">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td class="toplink" valign="bottom">
+                      <a href="../../Sidor/default.html">
+                        Besiktning
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <ul>
+                <li>
+                  <a href="../../Services/Sidor/default.html" class="hasChildren">
+                    Besiktningar och tjänster
+                  </a>
+                </li>
+                <li>
+                  <a href="../../Online/Sidor/default.html">
+                    Besiktning online
+                  </a>
+                </li>
+                <li class="expanded1">
+                  <a href="Default.html" class="selectedNav">
+                    Hitta närmaste ingenjör
+                  </a>
+                </li>
+              </ul>
+              <div class="bottom">
+              </div>
+            </div>
+          </div>
+          <!-- &lt;breadcrumbAndToolboxContainer&gt; -->
+          <div class="breadcrumbContainerAndToolboxContainer">
+            <!-- BREADCRUMB -->
+            <div id="breadcrumb_div" class="breadcrumb">
+              <a href="../../Sidor/default.html">
+                Besiktning
+              </a>
+              |
+                                                                                                                    Hitta närmaste ingenjör
+            </div>
+          </div>
+          <!-- Right &amp; Left Content -->
+          <div class="layoutContainer">
+            <div class="left">
+              <div id="employeeResults" style="visibility: hidden" class="pageContent">
+              </div>
+              <div id="map" style="visibility: visible">
+                <h1>
+                  Hitta närmaste ingenjör i vårt rikstäckande nät
+                </h1>
+                 <p><u>
+                  Du kan se vilka av SMPs besiktningsingenjörer som finns närmast dig genom att klicka i kartan.
+                </u>
+                <p>
+                  Våra besiktningsingenjörer är stationerade på sin bostadsort och formar tillsammans ett rikstäckande nät. Samtidigt som vi är rikstäckande är varje besiktningsingenjör angelägen om att vara insatt i alla kunders lokala förutsättningar.
+                </p>
+
+                <div id="pointer_div">
+                  <input type="image" src="/Styles/Images/Pictures/map.jpg" onclick="findClosestEng(event);" style="border-width:0px;float:left;margin-bottom:200px;margin-right=10px;" />
+                </div>
+                <div id="resultLabel" title="" style="float:left;padding-left:10px;visibility:'visible';">
+                </div>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p class="lastSection">
+                </p>
+              </div>
+            </div>
+            <div class="right">
+              <h3>
+                Relaterad information
+              </h3>
+               <div class="contactArea">
+                 <h4>
+                    Kundservice besiktning
+                </h4>
+                <div class="contactPerson">
+                  <a href="mailto:besiktning@smp.sp.se" class="contact">
+                    besiktning@smp.sp.se
+                  </a>
+                  <p>
+                    Tel: 010-516 64 20
+                  </p>
+                </div>
+                <h4>
+                    Tekniska frågor
+                </h4>
+                <div class="contactPerson">
+                  <a href="mailto:janolof.nilsson@smp.sp.se" class="contact">
+                    Jan-Olof Nilsson
+                  </a>
+                  <p>
+                    Tel: 010-516 64 32
+                  </p>
+                </div>
+             </div>
+            </div>
+          </div>
+          <!-- FOOTER -->
+          <div class="footerAreaContainer">
+            <div class="left">
+            </div>
+            <div id="footer_div" class="middle">
+              SMP Svensk Maskinprovning, Tel 010-516 64 00, E-post
+              <a href="mailto:info@smp.sp.se">
+                info@smp.sp.se
+              </a>
+            </div>
+            <div class="right">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pageOuterRightContainer">
+      </div>
+    </div>
+  </body>
+</html>

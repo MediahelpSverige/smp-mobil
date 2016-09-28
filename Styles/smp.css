@@ -1,0 +1,1993 @@
+﻿/* CSS Document */
+
+body
+{
+    background-color: #878889;
+    background-image: url(../Styles/Images/topFadeBg.jpg);
+    background-repeat: repeat-x;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    color: #999;
+    font-size: 0.8em;
+    line-height: 1.25;
+}
+
+
+/* General typo */
+/* <general typography> */
+
+
+p
+{
+    margin: 0.4em 0px;
+    padding-top: 2px;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #454545;
+    line-height: 1.1;
+}
+
+h1
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6em;
+    margin: 12px 0 5px 0;
+}
+
+
+
+h2, h3
+{
+    font-size: 1.2em;
+    margin: 1.2em 0 0.4em 0;
+}
+
+h4, h5, h6
+{
+    font-size: 0.92em;
+    margin: 0.92em 0 0 0;
+}
+
+img
+{
+    border:  0;
+}
+
+ul
+{
+    list-style: outside square;
+    margin: 0.5em 0 0.5em 15px;
+    padding: 0 0 0 10px;
+}
+ol li
+{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0 0 0 10px;
+}
+
+li
+{
+    padding: 0 0 0.3em 0; /*line-height:14px;*/
+    line-height: 1.1;
+}
+
+hr
+{
+    border: solid 1px #edeeef;
+    height: 1px;
+    margin-right: 7px;
+}
+
+adress
+{
+    display: block;
+    font: normal 13px/15px Geneva, Arial, Helvetica, sans-serif;
+    margin: 25px 10px 10px 10px;
+    padding: 5px 10px;
+    border: dashed 1px #999999;
+    background-color: #F0F0F0;
+}
+
+
+/* slut general typo */
+
+
+/*<editor styles>*/
+.ms-formfieldvaluecontainer
+{
+    color: #454545;
+}
+.ms-formfieldvaluecontainer h1, .ms-formfieldvaluecontainer h2, .ms-formfieldvaluecontainer h3, .ms-formfieldvaluecontainer h4, .ms-formfieldvaluecontainer h5, .ms-formfieldvaluecontainer h6
+{
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+.ms-formfieldvaluecontainer h1
+{
+    color: #454545;
+    font-size: 1.6em;
+}
+.ms-formfieldvaluecontainer h2, .ms-formfieldvaluecontainer h3, .ms-formfieldvaluecontainer h4, .ms-formfieldvaluecontainer h5, .ms-formfieldvaluecontainer h6
+{
+    color: #454545;
+}
+
+.ms-formfieldvaluecontainer strong
+{
+    display: inline;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: inherit;
+}
+.ms-formfieldvaluecontainer p
+{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+.ms-formfieldvaluecontainer adress
+{
+    display: block;
+    font: normal 13px/15px Geneva, Arial, Helvetica, sans-serif;
+    margin: 25px 10px 10px 10px;
+    padding: 5px 10px;
+    border: dashed 1px #999999;
+    background-color: #F0F0F0;
+}
+
+.ms-formfieldvaluecontainer dl
+{
+    display: block;
+    font: normal 13px/15px Geneva, Arial, Helvetica, sans-serif;
+    margin: 25px 10px 10px 10px;
+    padding: 5px 10px;
+    border: ridge 1px #999999;
+    background-color: #FFFFF4;
+}
+
+.ms-formfieldvaluecontainer dd
+{
+    display: block;
+    font: normal 13px/15px Geneva, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 5px 10px 5px 5px;
+    border: dotted 1px #999999;
+    background-color: #ffffff;
+}
+/*</editor styles>*/
+
+
+/* <override for webparts> */
+
+.ms-WPBody
+{
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* </override for webparts> */
+
+
+.moss2007AdminContainer
+{
+    width: 986px;
+    padding: 0;
+    float: left;
+}
+.moss2007Admin
+{
+    width: 952px;
+    margin: 0 0 10px 30px;
+    padding: 2px;
+    background-color: #FFFFFF;
+}
+.moss2007Admin .ms-siteaction
+{
+    float: right;
+}
+.moss2007Admin .ms-SPLink
+{
+    float: left;
+}
+.hide
+{
+    display: none;
+}
+
+.allPage
+{
+    margin: 5px auto 5px auto;
+    padding: 0;
+    width: 986px;
+}
+.allPage:after
+{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    width: 1px;
+}
+/* Outer */
+.pageOuterLeftContainer, .pageOuterRightContainer
+{
+    width: 30px;
+    float: left;
+    display: block;
+}
+
+.pageOuterLeftContainer
+{
+    background-repeat: no-repeat;
+    background-position: 0px 250px;
+    height: 1000px;
+    padding: 130px 0 0 0;
+    float: left;
+}
+.pageOuterRightContainer
+{
+    display: none;
+}
+.pageInnerContainer
+{
+    width: 955px;
+    float: left;
+    background: #fff;
+    margin-bottom: 25px;
+}
+/* /Outer */
+
+/* <topcorners> */
+.topCorners
+{
+    height: 1px;
+    overflow: hidden;
+}
+
+.topCornerL, .topCornerR
+{
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: #a1a2a5;
+}
+
+.topCornerL
+{
+    float: left;
+}
+
+.topCornerR
+{
+    float: right;
+}
+/* </topcorners> */
+
+/* <topAreaContainer> */
+.topAreaContainer
+{
+    height: 123px;
+    display: block;
+    background-image: url(../Styles/Images/topMenuBg.gif);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    font-size: 11px;
+}
+.topAreaContainer a, .topAreaContainer a:visited, .topAreaContainer a:active
+{
+    color: #555;
+    text-decoration: none;
+}
+
+.topAreaContainer a:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* <topLogoContainer> */
+.topLogoContainer
+{
+    width: 120px;
+    height: 134px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+/* </topLogoContainer> */
+/* <topLinksContainer> */
+.topLinksContainer, .topSearchContainer
+{
+    width: 785px;
+    float: left;
+    display: block;
+}
+
+.topNavigationContainer 
+{
+    width: 600px;
+    float: left;
+    display: block;
+}
+
+.topLinksContainer
+{
+    height: 30px;
+}
+.topLinks
+{
+    float: right;
+    margin: 5px 8px;
+}
+/* </topLinksContainer> */
+/* <topSearchContainer> /*
+        /*inherited styles start*/
+.ms-sbtable
+{
+    color: #000;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+.ms-sbtable-ex
+{
+    width: 195px;
+    border-collapse: collapse;
+    margin: 0;
+}
+td.ms-sbcell
+{
+    padding: 0px;
+    padding-left: 0;
+    white-space: nowrap;
+    border: none;
+}
+.ms-sbplain
+{
+    font-family: Tahoma;
+    font-size: 1em;
+    border: none;
+}
+td.ms-sbgo
+{
+    background-color: transparent;
+    padding: 0;
+}
+/*inherited styles end*/
+.topSearchContainer
+{
+    height: 35px;
+    overflow: hidden;
+    display: inline;
+    margin-bottom: 9px;
+}
+#SRSB
+{
+    float: right;
+}
+
+.ms-sbcell
+{
+    width: 142px;
+    height: 26px;
+    display: block;
+    background: url(../Styles/Images/searchInputBox.gif) no-repeat;
+    float: left;
+}
+
+.ms-sbplain
+{
+    width: 132px;
+    height: 18px;
+    border: 0;
+    background-color: #fff;
+    margin: 2px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    float: left;
+}
+.ms-sbplain input
+{
+    width: 132px;
+}
+/* IE Hack */
+html* .ms-sbplain
+{
+    position: relative;
+    top: 0px;
+    left: 2px;
+}
+/* END IE Hack */
+.ms-sbLastcell
+{
+    width: 0px;
+}
+.topSearchContainer .ms-sbgo
+{
+    width: 25px;
+    margin: 0 8px 0 16px;
+    border: none;
+    float: left;
+    background-image: none;
+}
+html* .topSearchContainer .ms-sbgo img
+{
+    padding-left: 10px;
+}
+/*.topNavigationContainer
+{
+    height: 61px;
+    overflow: visible;
+}*/
+/*<topNavigation>*/
+.header
+{
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    line-height: normal;
+    white-space: nowrap;
+}
+.header ul
+{
+    float: left;
+    margin: 0;
+    padding: 10px 0 0;
+    list-style: none;
+    white-space: nowrap;
+    
+}
+.header li
+{
+    float: right;
+    background: url(../Styles/Images/left_both.gif) no-repeat left top;
+    margin: 0 0 0 1px;
+    padding: 0 0 0 8px;
+    border-bottom: 1px solid #999;
+    white-space: nowrap;
+    line-height: normal;
+}
+.header tr
+{
+    padding: 0 100px 0 0;
+}
+.header a
+{
+    float: left;
+    display: block;
+    width: 11px;
+    background: url(../Styles/Images/right_both.gif) no-repeat right top;
+    padding: 5px 11px 4px 4px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
+    white-space: nowrap;
+}
+.header > ul a
+{
+    width: auto;
+    white-space: nowrap;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.header a
+{
+    float: none;
+    white-space: nowrap;
+}
+/* End IE5-Mac hack */
+.header a:hover
+{
+    color: #000;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.header a:visited
+{
+    color: #000;
+}
+
+.header .current
+{
+    background-position: 0 -150px;
+    border-width: 0;
+    white-space: nowrap;
+}
+.header .current a
+{
+    background-position: 100% -150px;
+    padding-bottom: 5px;
+    color: #111;
+    white-space: nowrap;
+}
+.header li:hover, #header li:hover a
+{
+    background-position: 0% -150px;
+    color: #111;
+    white-space: nowrap;
+}
+.header li:hover a
+{
+    background-position: 100% -150px;
+    white-space: nowrap;
+}
+/*</topNavigation>*/
+/* </topNavigationContainer> /*
+/* </topAreaContainer> */
+
+/* <pageContentContainer> */
+.pageContentContainer
+{
+    width: 955px;
+    margin: 0;
+    background-color: #fff;
+    display: block;
+}
+
+/* <breadcrumbAndToolboxContainer> */
+.breadcrumbAndToolboxContainer
+{
+    width: 780px; /*height:27px;*/
+    background-color: #fff;
+    display: block;
+    margin: 2px 0 2px 0;
+    padding: 0;
+    float: left;
+}
+.breadcrumb
+{
+    float: left;
+    margin: 0; /*margin-left:184px;*/
+    padding-left: 9px;
+    padding-top: 10px;
+    padding-bottom: 5px; /*width:499px;*/
+    width: 500px;
+    font-size: 11px;
+    color: #765;
+}
+.breadcrumb a
+{
+    color: #99999a;
+    font-size: 11px;
+    text-decoration: none;
+}
+.breadcrumb a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+.toolbox
+{
+    width: 266px;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.toolbox a
+{
+    float: right;
+    color: #99999a;
+    font-size: 11px;
+    text-decoration: none;
+    margin-right: 12px;
+}
+.toolbox a:hover
+{
+    color: #000;
+}
+/* </breadcrumbAndToolboxContainer> */
+/* </pageContentContainer> */
+/* <leftNavigationContainer> */
+.leftNavigationContainer
+{
+    width: 175px;
+    margin: 0 0 50px 0;
+    padding: 0 0 20px 0;
+    float: left;
+    height: auto;
+    background-color: #fff;
+}
+.leftNavigationContainer .bottom
+{
+    background: transparent url(../Styles/Images/section_bottom2.gif) top right no-repeat;
+    width: 175px;
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    height: 50px;
+}
+.leftNavigationContainer .toplink
+{
+    background: transparent url(../Styles/Images/section_top.gif) top right repeat-y;
+    height: 33px;
+    margin: 0;
+}
+.leftNavigationContainer a
+{
+    color: #888888;
+}
+.leftNavigationContainer .toplink a
+{
+    display: block;
+    margin-top: 2px;
+    color: #3a519a;
+    text-decoration: none;
+    margin-left: 19px;
+    padding-bottom: 4px;
+    font: normal bold 12px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.92em;
+}
+.leftNavigationContainer .middlelink
+{
+    height: 35px;
+    background: transparent url(../Styles/Images/section_normal2.gif) top right repeat-y;
+}
+.leftNavigationContainer ul
+{
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style-position: outside;
+    list-style-type: none;
+}
+/*<level 1 normal>*/
+
+.leftNavigationContainer li
+{
+    background: transparent url(../Styles/Images/section_normal2.gif) top right repeat-y;
+    color: #666;
+    list-style-position: outside;
+    margin: 0;
+    padding: 5px 0 5px 0;
+}
+
+
+.leftNavigationContainer ul li p
+{
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 5px 0 19px;
+    display: block;
+    color: #888;
+}
+
+.leftNavigationContainer ul li a
+{
+    font: normal 11px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0 5px 0 19px;
+    display: block;
+}
+.leftNavigationContainer a:hover
+{
+    text-decoration: underline;
+    color: #000000;
+}
+/*</level 1 normal>*/
+/*<level 1 selected>*/
+.leftNavigationContainer .expanded1
+{
+    display: block;
+    background: transparent url(../Styles/Images/section_topl2.gif) top right no-repeat;
+}
+.leftNavigationContainer .expanded1 a.hasChildrenExpanded
+{
+    background: transparent url(../Styles/Images/navSelected.gif) no-repeat;
+    background-position: 10px 7px;
+}
+*html .leftNavigationContainer .expanded1 a
+{
+    background-position: 10px 9px;
+}
+.leftNavigationContainer a.selectedNav
+{
+    color: #3a519a;
+    border: solid 1px #3a519a;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 18px; /* 1 px mindre än på ".leftNavigationContainer ul li a",så att texten ej skall hoppa i sidled */
+}
+
+/*</level 1 selected>*/
+/*<level 2>*/
+.leftNavigationContainer .expanded1 ul li
+{
+    background: #fff;
+    padding: 2px 0 2px 10px;
+}
+.leftNavigationContainer a.subItems
+{
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 25px; 
+}
+.leftNavigationContainer .expanded1 ul li a
+{
+    background: #fff;
+    display: block;
+}
+.leftNavigationContainer a.hasChildren
+{
+    background: transparent url(../Styles/Images/navHasChildren.gif) no-repeat;
+    background-position: 10px 5px;
+}
+
+.leftNavigationContainer .expanded1 a.hasChildren
+{
+    background: transparent url(../Styles/Images/navHasChildren.gif) no-repeat;
+    background-position: 7px 5px;
+}
+/*</level 2>*/
+/* </leftNavigationContainer> */
+
+/*<footerAreaContainer>*/
+.footerAreaContainer
+{
+    width: 955px;
+    clear: both;
+    height: 23px;
+    background-image: url(../Styles/Images/footerBg.jpg);
+    background-repeat: repeat-x;
+}
+.footerAreaContainer .left
+{
+    width: 1px;
+    height: 23px;
+    float: left;
+    background: none;
+    border-bottom: solid 1px #a1a2a5;
+}
+.footerAreaContainer .right
+{
+    width: 1px;
+    height: 23px;
+    float: left;
+    background: none;
+    border-bottom: solid 1px #a1a2a5;
+}
+.footerAreaContainer .middle
+{
+    float: left;
+    height: 20px;
+    width: 953px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #765;
+    padding-top: 3px;
+}
+.footerAreaContainer .middle a
+{
+    color: #025e8c;
+    text-decoration: none;
+}
+.footerAreaContainer .middle a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+/*</footerAreaContainer>*/
+
+/* Contact link class padding-left: 0px; float: none; float: right;
+*/
+.contact
+{
+    padding-left: 0px;
+    float: none;
+    background-image: url(../Styles/Images/contact.gif);
+    background-repeat: no-repeat;
+    background-position: left -2px;
+}
+
+/* /Contact link class */
+/* read more link class */
+.readmore
+{
+    display: block;
+    float: left;
+    padding-left: 15px;
+    background: url(../Styles/Images/readmore.gif) no-repeat;
+    clear: both;
+}
+/* /read more link class */
+
+/* Page Layout styles */
+/* Common page layout */
+/* <layoutContainer> */
+.layoutContainer
+{
+    background: #fff;
+    width: 762px;
+    float: left;
+    display: block;
+    border-top: solid 1px #edeeef;
+    margin: 0px 11px 0 7px;
+    padding-bottom: 100px;
+}
+*html .layoutContainer
+{
+    width: 762px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+/* <left> */
+.layoutContainer .left
+{
+    float: left;
+    display: block;
+    width: 506px;
+    margin: 2px 14px 0 8px;
+    border-right: solid 1px #edeeef;
+    color: #454545;
+    padding-bottom: 20px;
+}
+/* <layoutContainer typography> */
+.layoutContainer .left .pageContent
+{
+    padding: 0 7px 15px 0;
+}
+.layoutContainer .left .pageContent .frontPage
+{
+    padding: 0 7px 0px 0;
+}
+.frontPic
+{
+    width: 499px;
+    height: 84px;
+    margin-bottom: -15px;
+}
+.layoutContainer .left .pageContent .sectionPicture
+{
+    padding-left:10px;
+    float:right;
+}
+.layoutContainer .left .pageContent .newSection
+{
+    border-top: solid 1px #bbb;
+    padding-top: 10px;
+}
+.layoutContainer .left .pageContent .lastSection
+{
+    padding-bottom: 100px;
+}
+.layoutContainer .left .pageContent h1
+{
+    color: #454545;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    padding-top: 2px;
+}
+.layoutContainer .left .pageContent strong
+{
+    color: #454545;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    display: block;
+    padding-bottom: 10px;
+}
+/*Gör så att formaterad text inte blir påverkad av strong*/
+.layoutContainer .left .pageContent span strong
+{
+    display: inline;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: inherit;
+}
+.layoutContainer .left .pageContent img
+{
+    padding: 0 0px 15px 0;
+    display: block;
+    float: none;
+}
+.layoutContainer .left .pageContent img.ms-asset-icon
+{
+    padding: 0 5px 0 0;
+    display: inline;
+}
+
+.layoutContainer .left .pageContent p
+{
+    margin: 0.5em 0px;
+}
+
+.layoutContainer .left .pageContent a
+{
+    display: block;
+}
+
+
+.layoutContainer .left .pageContent ul
+{
+    list-style-position: outside;
+    list-style-type: square;
+    margin: 0.5em 0 0.5em 15px;
+    padding: 0 0 0 10px;
+}
+
+.layoutContainer .left .pageContent ol
+{
+    list-style-position: outside;
+    margin: 0.5em 0 0 15px;
+    padding: 0 0 0 10px;
+}
+
+.layoutContainer .left .pageContent li
+{
+    line-height: 1.2;
+    margin-left: 15px;
+}
+
+.layoutContainer .left .date
+{
+    display: block;
+    margin-top: 3px;
+    color: #777;
+}
+.layoutContainer .left .contact
+{
+    display: block;
+    margin-top: 3px; /*color:#025e8c;*/
+    text-decoration: none;
+    background-position: left 0px;
+}
+
+.layoutContainer .left a:visited
+{
+    text-decoration: underline;
+    color: #C6C;
+}
+
+.layoutContainer .left a:hover
+{
+    text-decoration: underline;
+    color: Black;
+}
+
+/* externa länkar får en icon eftersig. (IE7 samt Firefox och senare) */
+.layoutContainer .left a[target^="_blank"]
+{
+    background: url(../Styles/Images/newWindowLink.gif) no-repeat right center;
+    padding-right: 18px;
+    margin-right: 2px;
+}
+
+/* </layoutContainer typography> */
+/* <divider> */
+.layoutContainer .left .divider
+{
+    width: 499px;
+    height: 22px;
+    padding: 0;
+    border-top: solid 1px #edeeef;
+    margin: 11px 7px 10px 0px;
+}
+/* </divider> */
+/* </left> */
+/* <right> */
+.layoutContainer .right
+{
+    float: left;
+    display: block;
+    border-left: solid 1px #edeeef;
+    margin: 13px 0px 26px -15px;
+    padding: 0 0 10px 14px;
+    width: 222px;
+}
+*html .layoutContainer .right
+{
+    width: 214px;
+}
+/* <layoutContainer typography> */
+.layoutContainer a
+{
+    color: #3a519a;
+    text-decoration: underline;
+}
+.layoutContainer a:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+.layoutContainer .right h3
+{
+    margin-top: 0;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #777777;
+}
+.layoutContainer .right h4
+{
+    float: none;
+    display: block;
+    clear: both;
+    color: #777;
+    font-size: 0.92em;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    width: 200px;
+}
+.layoutContainer .right h5
+{
+    float: none;
+    display: block;
+    clear: both;
+    color: #454545;
+    font-weight: normal;
+    padding: 0 0 0 0;
+    margin: 0.6em 0 0.3em 10px;
+}
+.layoutContainer .right a
+{
+    float: none;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1.1;
+    margin: 0.4em 0 0.4em 10px;
+    color: #888888;
+}
+
+/* används for oppnas i nytt fonster och dokument iconer */
+.layoutContainer .right img
+{
+    padding: 0 5px 0 5px;
+    border: none;
+    vertical-align: middle;
+}
+
+.layoutContainer .right a:visited
+{
+    color: #C6C;
+    text-decoration: none;
+}
+
+.layoutContainer .right a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.layoutContainer .right a.readmore
+{
+    padding-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    float: none;
+    clear: both; /* white-space:nowrap;	*/
+    padding-left: 15px;
+}
+.layoutContainer .right a.hasgroup
+{
+    margin-left: 10px;
+}
+.layoutContainer .right a.contact
+{
+    padding-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+/* </layoutContainer typography> */
+/* </right> */
+
+/* </layoutContainer> */
+/* /Common page layout */
+/* <contacts> */
+.contactArea
+{
+    color: #454545;
+    display: block;
+    padding-bottom: 1px;
+    padding-left: 0px; /* margin:4px 0 0 10px; */
+}
+.contactArea p
+{
+    float: none;
+    padding: 0;
+    margin: 0;
+    display: block; /*font-size:11px;*/
+    margin-left: 0px;
+}
+.contactArea a.contact
+{
+    background-position: 0px 1px;
+    display: block;
+    float: none;
+    padding: 2px 0 0 22px;
+}
+
+.contactArea .groupHeader
+{
+    margin-left: 10px;
+    color: #454545;
+    margin-top: 10px;
+    line-height: 0.3; /* font-weight:bold;  */
+}
+
+.contactArea .contactPerson
+{
+    margin-left: 10px;
+}
+
+/* </contacts> */
+
+/* <teaser> */
+.teasers
+{
+    width: 499px;
+    border-top: solid 1px #edeeef;
+    margin: 0 7px 4px 0px;
+}
+.teasers .column
+{
+    float: left;
+    display: block;
+    color: #454545;
+    padding: 8px 8px 0 0;
+}
+.teasers .coll3
+{
+    width: 158px;
+}
+.teasers .coll2
+{
+    width: 241px;
+}
+.teasers .column .img
+{
+    overflow: hidden;
+}
+.teasers .coll3 .img
+{
+    width: 158px;
+}
+.teasers .coll2 .img
+{
+    width: 241px;
+}
+.teasers .teaserdivider
+{
+    width: 450px;
+    float: left;
+    display: block;
+    height: 8px;
+}
+.teasers .column img
+{
+    float: left;
+    padding: 0 0 0 0;
+    margin: 0px;
+    display: block;
+    clear: both;
+    height: 100px;
+    width: 160px;
+}
+.teasers .column span
+{
+    font-size: 0.9em;
+}
+.teasers .column h4
+{
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.92em;
+    float: left;
+    padding: 8px 0 4px 0;
+    margin: 0px;
+    width: 100%;
+}
+
+.teasers a.readmore
+{
+    height: 25px;
+    text-decoration: none;
+    color: #888888;
+    margin-top: 3px;
+    padding: 1px 0 0 15px;
+    width: 100px;
+}
+
+.teasers a.readmore:visited
+{
+    color: #cc66cc;
+    text-decoration: none;
+}
+
+.teasers a.readmore:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* </teaser> */
+
+
+/* rubriken "År" ,tex "2007" */
+.layoutContainer .right .press h4 a
+{
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.layoutContainer .right .press h5
+{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: -4px;
+    font-size: 0.85em;
+    color: #9B9797;
+}
+
+.layoutContainer .right .press .selectedNav
+{
+    border: solid 1px #999;
+    padding: 1px 0 2px 2px;
+}
+
+
+.layoutContainer .left .press h4
+{
+    color: #777;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif; /*font-size:11px;*/
+    font-size: 0.9em;
+    padding: 0 0 0 0;
+    margin: 6px 0 4px 0;
+}
+.layoutContainer .left .press h5
+{
+    color: #777;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: normal; /*font-size:11px;*/
+    font-size: 0.9em;
+    padding: 0 0 0 0;
+    padding-left: 15px;
+    margin: 6px 0 2px 0;
+}
+.layoutContainer .left .press a
+{
+    font-weight: normal;
+    text-decoration: none;
+    padding-left: 15px; /*font-size:11px;*/ /*font-size:0.9em;*/
+    display: block;
+    margin-bottom: 4px;
+}
+.layoutContainer .left .press a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+.layoutContainer .left .press h4 a
+{
+    color: #6490a6;
+    font-weight: bold;
+    border-bottom: solid 1px #6490a6;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    display: inline;
+}
+
+
+/* <news> */
+.right .newsItem
+{
+    width: 214px;
+    margin-bottom: 8px;
+    float: none;
+}
+.right .newsItem a.readmore
+{
+    margin-left: 0px;
+    color: #888888;
+}
+
+.right .newsItem a:visited
+{
+    color: #cc66cc;
+    text-decoration: none;
+}
+
+.right .newsItem a:hover
+{
+    color: Black;
+    text-decoration: underline;
+}
+
+
+.right .newsItem a.newsdate
+{
+    color: #9b9797; /*font-size:11px;*/
+    font-size: 0.85em;
+    display: block;
+    width: 194px;
+    margin: 6px 0 3px 0;
+    padding: 0 0 2px 0px; /*background:url(/Style%20Library/SP%20Images/news.gif) top left no-repeat;*/
+}
+.right .newsItem span.newsdate
+{
+    color: #9b9797; /*font-size:11px;*/
+    font-size: 0.86em;
+    display: block;
+    width: 194px;
+    margin: 6px 0 3px 0;
+    padding: 0 0 2px 0px; /*background:url(/Style%20Library/SP%20Images/news.gif) top left no-repeat;*/
+}
+.right .newsItem h4
+{
+    color: #454545;
+    margin: 0;
+    padding: 0 0 3px 0px;
+    width: 210px;
+}
+.right .newsItem .image
+{
+    width: 214px;
+    overflow: hidden;
+    padding: 0;
+}
+.right .newsItem .image img
+{
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+
+.right .newsItem span
+{
+    /* skall det vara denna färg??, hittar inte var den används 2007-06-13 */
+    color: #403e3e;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+}
+.left .news
+{
+    float: left;
+    width: 499px;
+    border-top: solid 1px #edeeef;
+    margin: 0px;
+    padding-bottom: 26px;
+    margin-top: 0;
+}
+.left .news .newsitem
+{
+    display: block;
+    margin-top: 8px;
+    width: 499px;
+}
+.left .news .newsitem .newsdate
+{
+    float: left;
+    width: 499px;
+    display: block;
+    color: #9b9797; /*font-size:11px;*/
+    font-size: 0.86em;
+    margin: 0;
+    padding: 0;
+}
+.left .news .newsitem h4
+{
+    color: #454545;
+    font-size: 0.92em;
+    margin: 0.2em 0 0.3em 0;
+}
+.left .news .newsitem span
+{
+    /*   width:499px;              float:left;*/
+    display: block;
+}
+.left .news a.readmore
+{
+    color: #888888;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    clear: none;
+    float: none;
+}
+.left .news a.readmore:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+/* </news> */
+
+/* Startpage */
+/* <startpage> */
+.left .startpage
+{
+    padding-bottom: 10px;
+    padding-top: 11px;
+}
+.left .startpage img
+{
+    float: left;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+/* </startpage> */
+/* <startPageLeftNav */
+.startLeftNavContainer
+{
+    width: 175px;
+    margin: 15px 0 0 0;
+    padding: 10px 0 50px 0;
+    float: left;
+    height: auto;
+    background-color: #fff;
+}
+.startLeftNavContainer .top
+{
+    width: 136px;
+    margin: 0 0 0 0;
+    padding: 10px 20px 0 19px;
+    font-size: 0.9em;
+    color: #000;
+}
+.startLeftNavContainer .bottom
+{
+    background: transparent url(../Styles/Images/section_bottom2.gif) top right no-repeat;
+    width: 175px;
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    height: 50px;
+}
+.startLeftNavContainer .bottomimg
+{
+    /*width: 175px; */
+    margin: 20px 0 0 0;
+    padding: 0px 0 0 19px;
+    height: 81px;
+}
+.startLeftNavContainer .toplink
+{
+    background: transparent url(../Styles/Images/section_top.gif) top right repeat-y;
+    display: block;
+    color: #3a519a;
+    height: 15px;
+    width: 156px;
+    text-decoration: none;
+    font: normal bold 12px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+.startLeftNavContainer .toplink a
+{
+    display: block;
+    margin-top: 2px;
+    color: #3a519a;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-bottom: 4px;
+    font: normal bold 12px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+}
+.startLeftNavContainer .middlelink
+{
+    padding-top: 5px;
+    height: 20px;
+    background: transparent url(../Styles/Images/section_normal2.gif) top right repeat-y;
+}
+.startLeftNavContainer ul
+{
+    margin: 0px 0 0 0;
+    padding: 0;
+    list-style-position: outside;
+    list-style-type: none;
+}
+/*<level 1 normal>*/
+.startLeftNavContainer li
+{
+    background: transparent url(../Styles/Images/section_normal2.gif) top right repeat-y;
+    color: #666;
+    list-style-position: outside;
+    margin: 0;
+    padding: 6px 0 5px 0;
+}
+.startLeftNavContainer ul li a
+{
+    font: normal 11px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    color: #484747;
+    text-decoration: none;
+    padding: 0 5px 0 19px;
+    display: block;
+    font-size: 11px;
+    line-height: 1.1;
+}
+.startLeftNavContainer ul li a:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+/* </startPageLeftNav> */
+/* /Startpage */
+/* Search */
+.searchresult
+{
+    margin-bottom: 20px;
+}
+.searchresult .srch-WPBody
+{
+    margin: 0 0 0 0;
+    font: normal bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+.searchresult .srch-Page
+{
+    color: #777;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: Transparent;
+    text-align: right;
+}
+/*
+		.searchresult .srch-Page A:link,.srch-Page A:visited
+		{
+			text-decoration:none;
+			color:#cc66cc;
+			font-weight:normal;
+		}
+*/
+.searchresult .srch-Page a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+.searchresult .ms-WPBody h4, .ms-TPBody h4
+{
+    color: #777;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    text-decoration: underline;
+}
+.searchresult .ms-WPBody span, .ms-TPBody span
+{
+    color: #454545;
+    font-weight: normal;
+}
+.searchresult .ms-WPBody A:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+.searchresult .ms-WPBody a.readmore
+{
+    height: 20px;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0271a9;
+    margin-top: 3px;
+}
+.searchresult .ms-WPBody a.readmore:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+.searchresult .searchitem
+{
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.searchresult .searchitem h4 a
+{
+    text-decoration: underline;
+}
+
+.searchresult .searchitem h4 a:visited
+{
+    text-decoration: underline;
+    color: #cc66cc;
+}
+
+.searchresult .searchitem h4 a:hover
+{
+    text-decoration: underline;
+    color: Black;
+}
+
+/* /Search */
+/* /Page Layout styles */
+/* Administration */
+.adminfieldset
+{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.adminlegend
+{
+    font-weight: bold;
+    padding: 0 5px;
+}
+.adminlegendheader
+{
+    padding-left: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 18px;
+    background-image: url(/Style%20Library/SP%20Images/help.gif);
+}
+.admindescription
+{
+    font-size: 11px;
+    display: block;
+    margin-bottom: 10px; /* 	margin-left:10px; 	padding-bottom:5px; */
+}
+/* /Administration */
+/* PRINT STYLES */
+@media print
+{
+    .moss2007AdminContainer, .pageOuterLeftContainer, .pageOuterRightContainer, .topCorners, .topLinksContainer, .topSearchContainer, .topNavigationContainer, .footerAreaContainer .left, .leftNavigationContainer, .breadcrumbAndToolboxContainer, .startLeftNavContainer, .right .crossref
+    {
+        display: none;
+    }
+    body
+    {
+        background-color: White;
+        background-image: none;
+    }
+    .topAreaContainer, .footerAreaContainer
+    {
+        background-image: none;
+    }
+    .contactArea
+    {
+        color: #454545;
+        display: block;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        margin: 4px 0 0 0;
+    }
+    .contactArea p
+    {
+        float: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    .contactArea a.contact
+    {
+        float: none;
+        display: block;
+        background-position: 0px 0px; /*color:#0271a9;*/
+        padding: 2px 0 0 0px;
+    }
+    .contact
+    {
+        float: none;
+        padding-left: 0px;
+        background-image: none;
+        background-position: left 0px;
+    }
+    .footerAreaContainer .middle
+    {
+        text-align: left;
+    }
+    .topAreaContainer
+    {
+        height: 123px;
+        display: block;
+        overflow: hidden;
+        font-size: 11px;
+    }
+    .topLogoContainer
+    {
+        margin-left: -50px;
+    }
+    .layoutContainer, .left, .teasers, .left .news
+    {
+        border: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    .layoutContainer .left
+    {
+        width: 450px;
+        border: none;
+    }
+    .readmore, a.readmore, .teasers a.readmore, .left .news a.readmore
+    {
+        display: none;
+    }
+}
+
+/* PRINT STYLES */
+
+
+/*	
+	Nedanstående Kopierad från /_layouts/1033/styles/HtmlEditorTableFormats.css
+
+	OBS allt i ovanstående fil måste kommenteras bort för att det skall bli rätt i editeringsläge!
+*/
+
+/* _lcid="1033" _version="12.0.4518"
+    _LocalBinding */
+/* format 5 - tabell 1 */
+
+.ms-rteTable-1
+{
+    border-collapse: collapse;
+    border: solid 0px;
+    font-family: Tahoma;
+    border: dotted 1px silver;
+    padding: 2px;
+}
+.ms-rteTable-1 tr.ms-rteTableHeaderRow-1
+{
+    margin: 10px;
+    padding: 10px;
+    color: #3A4663;
+    text-align: left;
+    font-size: 10pt;
+    font-style: normal;
+    font-family: Tahoma; /*	text-transform: capitalize;*/
+    font-weight: 500;
+    border-spacing: 10px;
+    line-height: 11pt;
+    vertical-align: top;
+    background-color: #F0F0F0;
+}
+
+.ms-rteTable-1 td.ms-rteTableHeaderFirstCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #3a4663;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableHeaderLastCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #3a4663;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableHeaderOddCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #3a4663;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableHeaderEvenCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #3a4663;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 tr.ms-rteTableOddRow-1
+{
+    color: #666666;
+    vertical-align: top;
+    font-size: 10pt;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 tr.ms-rteTableEvenRow-1
+{
+    color: #666666;
+    vertical-align: top;
+    font-size: 10pt;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableFirstCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px silver;
+    background-color: #F8F8F8;
+}
+.ms-rteTable-1 td.ms-rteTableLastCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px silver;
+    background-color: #F8F8F8;
+}
+.ms-rteTable-1 td.ms-rteTableOddCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableEvenCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 tr.ms-rteTableFooterRow-1
+{
+    color: #3a4663;
+    font-weight: 500;
+    font-size: 10pt;
+    font-family: Tahoma;
+    line-height: 11pt;
+    border: dotted 1px silver;
+}
+.ms-rteTable-1 td.ms-rteTableFooterFirstCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px silver;
+    border-top: solid 1px silver;
+    color: #000;
+}
+
+.ms-rteTable-1 td.ms-rteTableFooterLastCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px silver;
+    border-top: solid 1px silver;
+    color: #000;
+}
+.ms-rteTable-1 td.ms-rteTableFooterOddCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px silver;
+    border-top: solid 1px silver;
+    color: #000;
+}
+.ms-rteTable-1 td.ms-rteTableFooterEvenCol-1
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px silver;
+    border-top: solid 1px silver;
+    color: #000;
+}
+
+/* slut format 1 */
+
+/* start format 2 */
+
+.ms-rteTable-2
+{
+    border-width: 0px;
+    border-style: none;
+    border-collapse: collapse;
+    font-family: Tahoma;
+    border: solid 1px #000;
+}
+.ms-rteTable-2 tr.ms-rteTableHeaderRow-2
+{
+    margin: 10px;
+    padding: 10px;
+    color: #3F4D6B;
+    background: #d9d9d9;
+    text-align: left;
+    font-size: 10pt;
+    font-style: normal;
+    font-family: Tahoma; /*text-transform: capitalize;*/
+    font-weight: bold;
+    border-spacing: 10px;
+    line-height: 14pt;
+    vertical-align: top;
+}
+.ms-rteTable-2 td.ms-rteTableHeaderFirstCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #fff;
+    line-height: 14pt;
+    background-color: #8b8b8b;
+    border: solid 1px black;
+}
+.ms-rteTable-2 td.ms-rteTableHeaderLastCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #fff;
+    line-height: 14pt;
+    background-color: #8b8b8b;
+    border: solid 1px black;
+}
+.ms-rteTable-2 td.ms-rteTableHeaderOddCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #fff;
+    line-height: 14pt;
+    background-color: #8b8b8b;
+    border: solid 1px black;
+}
+.ms-rteTable-2 td.ms-rteTableHeaderEvenCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    color: #3a4663;
+    line-height: 14pt;
+    border: solid 1px black;
+}
+.ms-rteTable-2 tr.ms-rteTableOddRow-2
+{
+    color: #666666;
+    background-color: #F2F3F4;
+    font-size: 10pt;
+    vertical-align: top;
+}
+.ms-rteTable-2 tr.ms-rteTableEvenRow-2
+{
+    color: #666666;
+    background-color: #fff;
+    font-size: 10pt;
+    vertical-align: top;
+}
+.ms-rteTable-2 td.ms-rteTableFirstCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px #24325e;
+    border-left: solid 1px #24325e;
+    background-color: #D0D0CC;
+    color: #000;
+}
+.ms-rteTable-2 td.ms-rteTableLastCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px #24325e;
+    border-right: solid 1px #24325e;
+    background-color: #E2E2DE;
+}
+.ms-rteTable-2 td.ms-rteTableOddCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px #24325e;
+}
+.ms-rteTable-2 td.ms-rteTableEvenCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border: dotted 1px #24325e;
+}
+.ms-rteTable-2 tr.ms-rteTableFooterRow-2
+{
+    background-color: #ececec;
+    color: #000;
+    font-weight: 500;
+    font-size: 10pt;
+    font-family: Tahoma;
+    line-height: 11pt;
+    border: solid 1px #000;
+}
+.ms-rteTable-2 td.ms-rteTableFooterFirstCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border-top: dashed gray 1.0pt;
+    text-align: left;
+    font-weight: normal;
+}
+.ms-rteTable-2 td.ms-rteTableFooterLastCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    border-top: dashed gray 1.0pt;
+    text-align: left;
+    font-weight: normal;
+}
+.ms-rteTable-2 td.ms-rteTableFooterOddCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px gray;
+}
+.ms-rteTable-2 td.ms-rteTableFooterEvenCol-2
+{
+    padding: 2px 5.4pt 2px 5.4pt;
+    text-align: left;
+    border: dotted 1px gray;
+}
+
+/* slut format 2 */
+
+/* slut HtmlEditorTableFormat.css */
