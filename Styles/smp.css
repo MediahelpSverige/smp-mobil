@@ -1997,7 +1997,19 @@ html* .topSearchContainer .ms-sbgo img
 
 /*RESPONSIVE CODE*/
 
-@media screen(max-width: 986px) {
+@media (max-width: 986px) {
+
+    /*HEADERSTYLES*/
+
+    .topLogoContainer{
+
+    }
+
+    .topSearchContainer{
+        
+    }
+
+    /*HEADER END*/
 
 
     #left_menu_div{
@@ -2005,6 +2017,13 @@ html* .topSearchContainer .ms-sbgo img
         float: none;
         padding: 0px;
         margin: 10px 0px;
+    }
+
+    .leftNavigationContainer{
+
+        float: none;
+        width: 100%;
+
     }
 
 
@@ -2018,6 +2037,26 @@ html* .topSearchContainer .ms-sbgo img
 
         float: left;
 
+    }
+
+
+    .layoutContainer{
+        width:100%; 
+    }
+
+    .layoutContainer .left{
+
+        width: 65%;
+
+    }
+
+    .teasers{
+
+    }
+
+    .layoutContainer .right{
+        width: 30%;
+        float: right;
     }
 
 
