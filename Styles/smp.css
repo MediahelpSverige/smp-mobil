@@ -1999,17 +1999,60 @@ html* .topSearchContainer .ms-sbgo img
 
 @media (max-width: 986px) {
 
+    .pageOuterLeftContainer{
+        display: none;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    .topAreaContainer{
+        height: auto;
+    }
+
     /*HEADERSTYLES*/
 
     .topLogoContainer{
-
-    }
-
-    .topSearchContainer{
         
     }
 
+     .topLogoContainer img{
+        width: 70%;
+        height: auto;
+     }
+
+    .topLinksContainer{
+        float: left;
+        display: inline-block;
+        width: auto;
+    }
+
+    .topSearchContainer{
+
+        float: left;
+        display: inline-block;
+        width: auto;
+
+    }
+
+    .topNavigationContainer{
+        float: none;
+    }
+
+
+
     /*HEADER END*/
+
+    /*CONTENT*/
+
+    .pageInnerContainer{
+        width: 100%;
+    }
+
+    .pageContentContainer{
+        width: 100%;
+    }
 
 
     #left_menu_div{
@@ -2060,5 +2103,70 @@ html* .topSearchContainer .ms-sbgo img
     }
 
 
+    /*FOOTER*/
+
+    .footerAreaContainer{
+        width: 100%;
+    }
+
+    .footerAreaContainer .middle{
+        width: 100%;
+    }
+
+    /*FOOTER END*/
+    
+}
+
+@media (max-width: 780px) {
+
+    .layoutContainer .left{
+        width: 90%;
+        border:none;
+    }
+
+    .layoutContainer .right{
+        width: 100%;
+    }
+
+   .layoutContainer .right h3{
+
+    color: #454545;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    font-weight: 400;
+
+
+    margin: 0px 10px 15px 0px;
+
+        border-bottom: 1px solid black;
+    }
+
+    .crossref{
+        display: block;
+        width: 30%;
+        border-right: 1px solid black;
+        float: left;
+    }
+
+    .frontPic{
+        width: 100%;
+        height: auto;
+    }
+
+    .right .img{
+
+        width: 30%;
+        float: left;
+
+
+    }
+
+
+
+}
+
+
+@media (max-width: 560px) {
     
 }
