@@ -205,7 +205,8 @@ adress
 {
     margin: 5px auto 5px auto;
     padding: 0;
-    width: 986px;
+    max-width: 986px;
+    position: relative;
 }
 .allPage:after
 {
@@ -229,6 +230,8 @@ adress
     height: 1000px;
     padding: 130px 0 0 0;
     float: left;
+        left: -31px;
+    position: absolute;
 }
 .pageOuterRightContainer
 {
@@ -1991,3 +1994,32 @@ html* .topSearchContainer .ms-sbgo img
 /* slut format 2 */
 
 /* slut HtmlEditorTableFormat.css */
+
+/*RESPONSIVE CODE*/
+
+@media screen(max-width: 986px) {
+
+
+    #left_menu_div{
+        width: 100%;
+        float: none;
+        padding: 0px;
+        margin: 10px 0px;
+    }
+
+
+    #left_menu_div table{
+
+
+    }
+
+
+    #left_menu_div ul li{
+
+        float: left;
+
+    }
+
+
+    
+}
