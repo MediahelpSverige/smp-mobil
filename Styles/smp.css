@@ -421,6 +421,7 @@ html* .ms-sbplain
     border: none;
     float: left;
     background-image: none;
+    cursor: pointer;
 }
 html* .topSearchContainer .ms-sbgo img
 {
@@ -1997,6 +1998,10 @@ html* .topSearchContainer .ms-sbgo img
 
 /*RESPONSIVE CODE*/
 
+.responsivemenu{
+    display: none;
+}
+
 @media (max-width: 986px) {
 
     .pageOuterLeftContainer{
@@ -2004,7 +2009,11 @@ html* .topSearchContainer .ms-sbgo img
     }
 
     body{
-        background-color: white;
+
+            overflow-y: scroll;
+    overflow-x: hidden;
+       
+
     }
 
     .topAreaContainer{
@@ -2014,6 +2023,7 @@ html* .topSearchContainer .ms-sbgo img
     /*HEADERSTYLES*/
 
     .topLogoContainer{
+
         
     }
 
@@ -2038,6 +2048,24 @@ html* .topSearchContainer .ms-sbgo img
 
     .topNavigationContainer{
         float: none;
+        width: 100%;
+    }
+
+    .topAreaContainer div:last-child{
+        
+    }
+
+    .header ul{
+        padding: 0px;
+    }
+
+    .header li{
+        border: none;
+        background: none;
+    }
+
+    .header li a{
+        background: none;
     }
 
 
@@ -2069,16 +2097,43 @@ html* .topSearchContainer .ms-sbgo img
 
     }
 
+    .startLeftNavContainer{
+        text-align: center;
+    }
+
+    .startLeftNavContainer .toplink{
+        display: none;
+    }
+
+    .startLeftNavContainer .bottom{
+        display: none;
+    }
+
+    .startLeftNavContainer ul{
+        display: inline-block;
+        
+    }
+
+    .startLeftNavContainer ul li a{
+        font-size: 15px;
+    }
+
 
     #left_menu_div table{
+
+            border: none;
+    display: block;
 
 
     }
 
 
+
+
     #left_menu_div ul li{
 
         float: left;
+        background:none;
 
     }
 
@@ -2119,6 +2174,11 @@ html* .topSearchContainer .ms-sbgo img
 
 @media (max-width: 780px) {
 
+    body{
+        margin: 0px;
+         background-color: white;
+    }
+
     .layoutContainer .left{
         width: 90%;
         border:none;
@@ -2126,6 +2186,8 @@ html* .topSearchContainer .ms-sbgo img
 
     .layoutContainer .right{
         width: 100%;
+        margin: 0px;
+        padding:0px;
     }
 
    .layoutContainer .right h3{
@@ -2166,7 +2228,308 @@ html* .topSearchContainer .ms-sbgo img
 
 }
 
+@media(max-width: 600px){
+
+    .ms-sbtable-ex{
+        width: 100%;
+        max-width: 195px;
+    }
+
+    #search_div_id{
+        position: relative;
+    }
+
+    td.ms-sbcell{
+        width: 100%;
+        background:none;
+        border: 1px solid gray;
+        border-radius: 13px;
+    }
+
+    .topSearchContainer .ms-sbgo{
+        position: absolute;
+        right: 0px;
+        margin: 0px;
+    }
+
+    .breadcrumb a{
+        font-size: 20px;
+    }
+
+    .breadcrumb{
+        font-size: 20px;
+    }
+        .topLogoContainer{
+        padding-left: 10px;
+        
+    }
+    .topAreaContainer{
+        position: relative;
+    }
+        .header ul{
+        padding: 0px;
+        display: none;
+    }
+
+    .header li{
+        border: none;
+        background: none;
+    }
+
+    .header li a{
+        background: none;
+    }
+
+    .responsivemenu{
+
+        display: block;
+        width: 100%;
+
+        /*
+
+        display: block;
+        cursor: pointer;
+    width: 50px;
+    height: 50px;
+   position: absolute;
+    bottom: 75px;
+    right: 0px;
+
+    */
+
+    }
+
+    div#btn-wrap {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+   .responsivemenu .bars {
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: right;
+  z-index: 99;
+}
+
+.responsivemenu .bars a {
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  border-radius: 1px;
+  background: black;
+  left: 13px;
+  top: 23px;
+}
+
+.responsivemenu .bars a:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  border-radius: 1px;
+  background: black;
+  top: -9px;
+}
+
+.responsivemenu .bars a:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  border-radius: 1px;
+  background: black;
+  top: 9px;
+}
+
+.popup {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  right: 10px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  pointer-events: none;
+  z-index: 99;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+ .popupactive .popup .popcontainer {
+        -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+ .popup .popcontainer {
+  width: 100%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  font-size: 17px;
+  line-height: 40px;
+  white-space: nowrap;
+  -webkit-transform: rotate3d(1, 1, 0, -15deg);
+  transform: rotate3d(1, 1, 0, -15deg);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  opacity: 0;
+  will-change: transform,opacity;
+  -webkit-transition-property: opacity,-webkit-transform;
+  transition-property: opacity,-webkit-transform;
+  transition-property: transform,opacity;
+  transition-property: transform,opacity,-webkit-transform;
+  -webkit-transition-duration: .25s;
+  transition-duration: .25s;
+}
+
+.popup .popcontainer .popclose {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 51px;
+  height: 51px;
+  font-size: 0;
+  cursor: pointer;
+  display: block;
+  z-index: 999999999999;
+}
+
+.popup .popcontainer .popclose:before {
+  content: '';
+  position: absolute;
+  background: black;
+  border-radius: 1px;
+  left: 14px;
+  right: 14px;
+  top: 24px;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: background .1s;
+  transition: background .1s;
+}
+
+.popup .popcontainer .popclose:after {
+  content: '';
+  position: absolute;
+  background: black;
+  border-radius: 1px;
+  left: 14px;
+  right: 14px;
+  top: 24px;
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: background .1s;
+  transition: background .1s;
+}
+
+.popmenu .header ul{
+    display: block;
+}
+
+.popmenu .header ul li{
+    /*float: none;*/
+    width: 40%;
+}
+
+.popmenu .header ul li a{
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+.crossref {
+    
+    width: 100%;
+
+}
+
+.right .img {
+    width: 100%;
+}
+
+
+.teasers{
+    width: 100%;
+}
+
+.teasers .column{
+    width: 30%;
+}
+
+.teasers .coll3{
+    width: 100%;
+}
+
+.teasers .column img{
+    width: 100%;
+    height: auto;
+}
+
+.layoutContainer .right a{
+    margin: auto;
+}
+
+.layoutContainer .right img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.teasers .teaserdivider{
+    width: 100%;
+}
+
+.teasers .coll3 .img{
+    width: 100%;
+}
+
+
+
+}
+
 
 @media (max-width: 560px) {
-    
+
+}
+
+@media(max-width: 400px){
+
+    iframe{
+        width: 100%;
+    }
+
+    .teasers .column{
+
+       /* width: 100%;*/
+
+    }
+
+    .breadcrumb a{
+        font-size:15px;
+    }
+
+     .breadcrumb{
+         font-size:15px;
+     }
+
 }

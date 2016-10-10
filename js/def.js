@@ -1,3 +1,61 @@
+
+
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+  var element = document.querySelectorAll(".topAreaContainer img")[2]
+
+  console.log(element);
+
+  var header = document.querySelectorAll('.topAreaContainer')
+
+   var oldnav = document.querySelectorAll('.topNavigationContainer');
+
+  var html = '<div class="responsivemenu"><div id="btn-wrap"> <div id="menutoggle" class="bars"><a id="menutogglea"></a></div></div><div  class="popup" ><div class="popcontainer"><a class="popclose"></a><div id="resnav" class="popmenu">'+oldnav[0].innerHTML+'</div></div></div>';
+
+  var div = document.createElement('div');
+
+  //GET THE OLD NAV
+
+ 
+
+
+  header[0].innerHTML += html;
+
+  var responsivemenu = document.getElementById('resnav');
+
+  
+
+
+ document.querySelectorAll(".topAreaContainer img")[2].style.position = 'absolute';
+
+ document.querySelectorAll(".topAreaContainer img")[2].style.left = '169px';
+
+ document.querySelectorAll(".topAreaContainer img")[2].style.top = '65px';
+
+
+ document.addEventListener('click',function(e){
+
+    var e = e || window.event;
+
+    var target = e.target || e.srcElement;
+
+
+    if(target.id == 'menutoggle' || target.id == 'menutogglea'){
+        header[0].className = 'topAreaContainer popupactive'
+    }
+
+    if (target.className == 'popclose') {
+        header[0].className = 'topAreaContainer'
+    }
+
+
+
+ });
+
+});
+
+
+
 /*
  * Clears the search input field from characters.
  */
@@ -62,3 +120,4 @@ function onSearchLoad() {
     var result = results(0, strWords.split(" "));
     replace_html(document.getElementById("searchResults"), result);
 }
+
