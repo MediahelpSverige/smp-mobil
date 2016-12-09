@@ -2224,11 +2224,56 @@ html* .topSearchContainer .ms-sbgo img
 
     }
 
+        .allPage{
+        margin: 0px;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
 
 
 }
 
 @media(max-width: 600px){
+
+    .startLeftNavContainer ul {
+    display: block;
+    text-align: left;
+    font-size: 29px;
+}
+
+.leftNavigationContainer  a.hasChildrenExpanded{
+    font-weight: bold;
+}
+
+.startLeftNavContainer ul a{
+
+}
+
+.leftNavigationContainer a.hasChildren{
+    font-weight: bold;
+}
+
+.startLeftNavContainer li{
+    margin: 5px 0px;
+}
+
+#left_menu_div ul li{
+    float: left;
+    width: 50%;
+    padding: 	0px;
+    text-align: 	center;
+}
+
+.topNavigationContainer table{
+	display: none;
+}
+
+        .allPage{
+        margin: 0px;
+    }
 
     .ms-sbtable-ex{
         width: 100%;
@@ -2510,6 +2555,8 @@ html* .topSearchContainer .ms-sbgo img
 
 @media (max-width: 560px) {
 
+
+
 }
 
 @media(max-width: 400px){
@@ -2520,7 +2567,7 @@ html* .topSearchContainer .ms-sbgo img
 
     .teasers .column{
 
-       /* width: 100%;*/
+        width: 90%;
 
     }
 

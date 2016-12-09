@@ -4,7 +4,9 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
   var element = document.querySelectorAll(".topAreaContainer img")[2]
 
-  console.log(element);
+  var documentW = window.innerWidth;
+
+  console.log(documentW);
 
   var header = document.querySelectorAll('.topAreaContainer')
 
@@ -15,24 +17,36 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var div = document.createElement('div');
 
   //GET THE OLD NAV
-
- 
-
-
   header[0].innerHTML += html;
 
   var responsivemenu = document.getElementById('resnav');
 
   
 
+if (documentW < 360) {
 
- document.querySelectorAll(".topAreaContainer img")[2].style.position = 'absolute';
+     document.querySelectorAll(".topAreaContainer img")[2].style.left = '110px';
+
+      document.querySelectorAll(".topAreaContainer img")[2].style.top = '65px';
+
+          document.querySelectorAll(".topAreaContainer img")[2].style.position = 'absolute';
+
+
+    console.log('small res')
+
+
+}else if(documentW < 990 &&  documentW > 360){
+
+     document.querySelectorAll(".topAreaContainer img")[2].style.position = 'absolute';
 
  document.querySelectorAll(".topAreaContainer img")[2].style.left = '169px';
 
  document.querySelectorAll(".topAreaContainer img")[2].style.top = '65px';
 
+     console.log('responsive')
 
+   
+}
  document.addEventListener('click',function(e){
 
     var e = e || window.event;
